@@ -1,0 +1,191 @@
+.vans-title{
+    font-size: 32px;
+    color: #161616; 
+    text-align: left;
+    margin-left: 26px;
+}
+
+.type-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background: transparent;
+    margin: 20px 0px 40px 0px;
+}
+
+.type{
+    display: flex;
+    color: #4D4D4D;
+    width: 20%;
+    height: 30px;
+    padding: 6px 26px 7px 26px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFEAD0;
+    cursor: pointer;
+}
+
+.simple-type:hover, .simple-type.selected{
+    background: #E17654;
+    color: #FFEAD0;
+}
+
+.rugged-type:hover, .rugged-type.selected{
+    background: #115E59;
+    color: #FFEAD0;
+}
+
+.luxury-type:hover, .luxury-type.selected{
+    background: #161616;
+    color: #FFEAD0;
+}
+
+.clear-type{
+    text-decoration: underline;
+    color: #4D4D4D;
+    cursor: pointer;
+}
+
+.van-cards-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.van-card{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 10px;
+}
+
+.van-card-image{
+    cursor: pointer;
+    width: 200px;
+}
+
+.van-card-span{
+    display: flex;
+    position: relative;
+}
+.van-card-name{
+    cursor: pointer;
+}
+
+.van-card-name, .van-card-price{
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.662px; 
+}
+
+.van-card-price{
+    position: absolute;
+    right: 0px;
+}
+
+.van-card-type{
+    color: #FFEAD0;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.662px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85.711px;
+    height: 33.886px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #E17654;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.van-card-per-day{
+    background: transparent;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.662px;
+    position: absolute;
+    right: 0px;
+    top: -15px;
+}
+
+.rugged-type-card{
+    background: #115E59;
+}
+
+.simple-type-card{
+    background: #E17654; 
+}
+
+.luxury-type-card{
+    background: #161616; 
+}
+
+.back-to-vans-btn{
+    text-align: left;
+    cursor: pointer;
+    margin-left: 25px;
+    color: #201F1D;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.van-details-div{
+    padding: 25px;
+}
+
+.van-details-img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.van-details-name{
+    margin-top: 20px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.652px; /* 105.164% */
+}
+
+.van-details-price{
+    font-size: 20px;
+}
+
+.van-details-price-number{
+    font-size: 24px;
+}
+
+.text-left-align{
+    text-align: left;
+}
+
+.van-details-description{
+    margin: 10px 0px 20px 0px;
+}
+
+.van-details-rent-btn{
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FF8C38;
+    font-size: 18px; 
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.van-details-rent-btn:active{
+    -webkit-box-shadow: 3px 3px 2px 0px rgba(255, 139, 56, 0.678);
+    -moz-box-shadow: 3px 3px 2px 0px rgba(255,140,56,0.678);
+    box-shadow: 3px 3px 2px 0px rgba(255,140,56,0.678);
+}

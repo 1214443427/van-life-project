@@ -1,0 +1,415 @@
+.host-links-div{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.dashboard-div, .host-reviews-div, .host-income-div, .host-van-layout-div, .host-listed-vans-div{
+    height: calc(100vh - 183.5px - 60px);
+    overflow: scroll;
+}
+
+.host-reviews-div{
+    padding: 25px;
+}
+
+.dashboard-welcome-div{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 27px;
+    background: #FFEAD0;
+}
+
+.dashboard-welcome-income-span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.dashboard-welcome-text{
+    font-size: 30px;
+}
+
+.dashboard-income-text{
+    font-size: 42px;
+}
+
+.dashboard-review-div{
+    padding: 33px 27px ;
+    border-radius: 5px;
+    height: 100px; 
+    background: #FFDDB2;
+    align-items: baseline;
+    display: flex;
+}
+
+.dashboard-review-text{
+    font-size: 22px;
+    margin-right: 12px;
+}
+
+.dashboard-listed-vans-div{
+    padding: 36px 26px;
+}
+
+.listed-vans-span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listed-van-card{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background: #FFF;
+    border-radius: 6px;
+    margin: 15px 0px;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.listed-van-card-link{
+    display: flex;
+}
+
+.listed-van-card-link:hover{
+    text-decoration: none;
+}
+
+.listed-van-img{
+    height: 50px;
+    border-radius: 5px;
+}
+
+.host-link{
+    color:black;
+}
+
+.listed-van-name-price-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 15px;
+}
+
+.listed-van-price{
+    color: #4D4D4D;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.host-listed-vans-div{
+    padding: 0px 25px;
+}
+
+.host-van-layout-div{
+    padding: 25px;
+}
+
+.list-van-error-text{
+    margin-top: 20px;
+}
+
+.host-van-layout-card{
+    background-color: white;
+    max-width: 500px;
+    padding: 25px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.host-vans-layout-title-div{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.host-vans-layout-image{
+    width: 35%;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.host-vans-photos{
+    display: flex;
+    margin-top: 20px;
+    height: 100px;
+    gap: 10px;
+}
+
+.host-vans-layout-links-span{
+    display: flex;
+    gap: 20px;
+}
+
+.host-vans-photos-images{
+    object-fit: cover;
+    border-radius: 5px; 
+    height: 80px;
+    width: 80px;
+}
+
+.host-van-pricing-text{
+    margin: 30px 0px;
+    color: #4D4D4D; 
+}
+
+.host-van-pricing-span{
+    font-size: 24px;
+    color: black;
+}
+
+.host-vans-details-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.host-vans-details-div p{
+    font-size: 14px;
+    color: black;
+}
+
+.host-vans-details-input, .host-vans-details-textarea, .host-vans-details-select, .save-van-btn, .cancel-btn{
+    border: none;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 5px;
+    outline-style: none;
+    background-color: #FFDDB2;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 30px;
+}
+
+.host-vans-details-edit{
+    text-align: right;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.host-vans-details-input:focus, .host-vans-details-textarea:focus, option{
+    background-color: #FFEAD0;
+}
+
+.host-vans-details-textarea{
+    resize: none;
+    height: 120px;
+}
+
+.host-vans-details-label{
+    font-weight: 700;
+}
+
+.btn-div{
+    display: flex;
+    gap: 20px;
+}
+
+.save-van-btn, .cancel-btn{
+    background-color: #FF8C38;
+    margin-top: 20px;
+}
+
+.modal-images{
+    width: 80vw;
+}
+
+
+.host-reviews-title{
+    color: black;
+    font-size: 32px;  
+    font-weight: 700; 
+    margin-right: 15px;
+}
+
+.host-reviews-title-div{
+    display: flex;
+    align-items: baseline;
+    color: #4D4D4D;
+    font-size: 16px;
+}
+
+.host-reviews-day-selector-div{
+    color: #4D4D4D;
+    margin-left: 3px;
+    position: relative;
+    width: 100px;
+    text-align: right;
+    z-index: 2;
+}
+
+.host-reviews-day-selector-buttons-div{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 71.4px;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.host-reviews-day-selector-buttons-div.show{
+    display: flex;
+}
+
+.days-selector-btn{
+    width: 100%;
+    border: none;
+    background-color: #FFEAD0;
+    height: 25px;
+}
+
+.days-selector-btn:hover{
+    background-color: #FFDDB2;
+}
+
+.host-reviews-overall-rating-div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.host-reviews-day-selector{
+    margin-left: 3px;
+    font-weight: 700;
+    text-decoration-line: underline; 
+}
+
+.host-reviews-day-selector:hover{
+    color: black;
+}
+
+.review-bar-div{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.reviews-bar-star-num{
+    color: #4D4D4D;
+    font-size: 16px;
+    width: 46px;
+    font-style: normal;
+    font-weight: 500; 
+}
+
+.review-bar-container{
+    background: #B9B9B9;
+    width: calc(100% - 145px);
+    height: 8px;
+    border-radius: 4px;
+}
+
+.review-bar{
+    background: #FF8C38;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.review-bar-percentage{
+    color: #4D4D4D; 
+    width: 39px;
+    text-align: right; 
+}
+
+
+.host-reviews-reviews-title{
+    font-weight: 700; 
+    font-size: 18px; 
+    margin-top: 35px;
+}
+
+.host-reviews-review{
+    border-bottom: #C7C7C7 solid 1px;
+    padding: 20px 0px;
+}
+
+.host-reviews-review-span{
+    margin: 8px 0px;
+    gap: 6px;
+    display: flex;
+}
+
+.host-reviews-review-date{
+    color: #8C8C8C; 
+    font-weight: 600;    
+}
+
+.host-income-div{
+    padding: 10px 26px;
+}
+
+.transaction-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px
+}
+
+.host-income-span{
+    display: flex;
+    align-items: baseline;
+}
+
+.monthly-income-chart{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.vertical-axis{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.income-chart-row-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashed-line{
+    width: calc(100% - 40px);
+    height:1px;
+    background:
+      repeating-linear-gradient(90deg,#4d4d4d44 0px 15px,#ffffff00 0px 30px)
+}
+
+.horizontal-axis{
+    width: calc(100% - 70px);
+    height: 197px;
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    gap: 8%;
+    z-index: 1;
+    left: 45px;
+    bottom: calc(-197px + 11px + 27px);
+}
+
+.income-chart-column-div{
+    flex-shrink: 0;
+    height: 100%;
+    width: 10%;
+}
+
+.income-chart-bar{
+    border-radius: 5px 5px 0px 0px; 
+    width: 100%;
+    background: #FFEAD0; 
+}
+
+.transaction-span{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

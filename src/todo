@@ -1,0 +1,4 @@
+> change imageUrl to an array
+> change image gallery to a reducer
+> migrate reviews into separate database
+> redo host pages with outlet context
