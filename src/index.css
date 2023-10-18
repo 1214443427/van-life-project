@@ -16,10 +16,3 @@
   padding: 0px;
 
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #161616;
-    background-color: #ffffff;
-  }
-}
