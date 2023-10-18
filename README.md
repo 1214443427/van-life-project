@@ -61,7 +61,7 @@ This is a multi-page web application built with React and React-Router to test m
 
 
 #### The functionalities include: 
-* user creaction and login
+* user creation and login
 * user authentication with firebase
 * viewing public vans hosted by other campers
 * data stored on firebase
@@ -73,4 +73,4 @@ This is a multi-page web application built with React and React-Router to test m
 renting of van is not implemented. 
 
 ## Credit
-This application is original from Scrimba's [React Router course](https://scrimba.com/learn/reactrouter6). The design of the website follows their [figma file](https://www.figma.com/file/igDA2NiMDhoaIIAqm5EnTq/%23VanLife?node-id=330%3A80&mode=dev). After I finished the course, I decided to re-build the app from scratch in order to test my skills. In addition to the basic functionalities cover by the course, I added authendications, editing, review fitering, photo gallery and a functional income graph. 
+This application is original from Scrimba's [React Router course](https://scrimba.com/learn/reactrouter6). The design of the website follows their [figma file](https://www.figma.com/file/igDA2NiMDhoaIIAqm5EnTq/%23VanLife?node-id=330%3A80&mode=dev). After I finished the course, I decided to re-build the app from scratch in order to test my skills. In addition to the basic functionalities cover by the course, I added authentications, editing, review filtering, photo gallery and a functional income graph. 
