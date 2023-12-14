@@ -2,7 +2,7 @@
 ## About
 This is a multi-page web application built with React and React-Router to test my personal skill. Its core functionality is for campers to rent/host vans from/for other campers. It is intended to be used on a mobile device. However, it is also accessible on desktops. 
 ## Demo
-[Click here to try](https://quiet-twilight-d98c1e.netlify.app/)
+[Click here to try](https://van-life-27.netlify.app/)
 #### Main Page
 <picture>
   <img 
