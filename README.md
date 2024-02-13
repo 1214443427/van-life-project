@@ -58,6 +58,12 @@ This is a multi-page web application built with React and React-Router to test m
     title = "host van page"    
     height = "500px"/>
 </picture>
+<picture>
+  <img 
+    src = 'https://github.com/1214443427/van-life-project/assets/36424586/aacb72ac-2c78-44a3-a3e6-a3b2251a1df3'
+    title = "host van page"    
+    height = "500px"/>
+</picture>
 
 
 #### The functionalities include: 
